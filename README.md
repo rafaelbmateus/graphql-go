@@ -11,7 +11,7 @@ make start
 ```
 
 Now access:
-[http://localhost:8080/graphql?query={user(id:%221%22){name,age}}](http://localhost:8080/graphql?query={user(id:%221%22){name,age}})
+[http://localhost:8080/graphql?query={user(id:"1"){name,age}}](http://localhost:8080/graphql?query={user(id:"1"){name,age}})
 
 Other commands:
 ```bash
